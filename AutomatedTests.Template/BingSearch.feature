@@ -3,7 +3,7 @@
 	as Common User
 	I want view all relevant results	
 
-@buscaSimples
+@simpleSearchTag
 Scenario: SearchSimpleText
 	Given Opened Browser
 	And Navigate to Bing Url

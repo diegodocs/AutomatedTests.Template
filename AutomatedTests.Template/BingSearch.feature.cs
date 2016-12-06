@@ -66,11 +66,11 @@ namespace AutomatedTests.Template
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("SearchSimpleText")]
-        [NUnit.Framework.CategoryAttribute("buscaSimples")]
+        [NUnit.Framework.CategoryAttribute("simpleSearchTag")]
         public virtual void SearchSimpleText()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SearchSimpleText", new string[] {
-                        "buscaSimples"});
+                        "simpleSearchTag"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8

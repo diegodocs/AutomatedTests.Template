@@ -3,6 +3,7 @@
 namespace AutomatedTests.Template
 {
     [Binding]
+    [Scope(Tag = "simpleSearchTag")]
     public class BingSearch
     {
         private BrowserNavigator navigator;
